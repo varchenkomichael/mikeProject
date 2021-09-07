@@ -7,7 +7,6 @@ public class Main {
         for ( ; ; ) {
 
         do {
-
         System.out.println("справка:");
         System.out.println("1. switch");
         System.out.println("2. if");
@@ -47,11 +46,11 @@ public class Main {
                 System.out.println("оператор;");
                 break;
             case '4':
-                System.out.println("оператор while:\n");
+                System.out.println(" оператор while:\n");
                 System.out.println("while(условие);");
                 break;
             case '5':
-                System.out.println("оператор do-while:\n");
+                System.out.println(" оператор do-while:\n");
                 System.out.println("do { ");
                 System.out.println("оператор;");
                 System.out.println("} while(условие);");
